@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/App.css';
+import '../scss/App.scss';
 import TitleGenerator from './TitleGenerator'
 
 function App() {
