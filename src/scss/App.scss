@@ -1,4 +1,6 @@
 @import-normalize;
+@import './TitleDisplay.scss';
+@import './TitlesGenerator.scss';
 
 .App {
   text-align: center;
@@ -39,12 +41,3 @@
   }
 }
 
-.title-container {
-  display: flex;
-  width: 50%;
-  justify-content: space-between
-}
-
-.titles {
-  margin: 10px;
-}
