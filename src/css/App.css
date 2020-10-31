@@ -1,3 +1,5 @@
+@import-normalize;
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between
+}
+
+.titles {
+  margin: 10px;
 }
